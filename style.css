@@ -71,6 +71,7 @@ section.profile .left .cd-headline.loading-bar .cd-words.wrapper::after {
     flex: 1;
 }
 .left h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -84,6 +85,7 @@ section.profile .left .cd-headline.loading-bar .cd-words.wrapper::after {
     width: 125px;
     height: 125px;
     border-radius: 50%;
+    image-resolution:initial;
     object-fit: cover;
 }
 .left .name_photo{
@@ -325,6 +327,7 @@ section.work .work-wrapper .portfolio .tabs ul li a{
     font-size: 14px;
 }
 section.work .work-wrapper .portfolio .tabs ul li a.active{
+    font-size: 25px;
     border-color: blue;
     color: rgb(203, 203, 223);
 }
@@ -371,7 +374,7 @@ section.work .work-wrapper .portfolio .profolio-wrap a img{
     transition-delay: 0.3s;
   }
 section.work .work-wrapper p.slider-first{
-    font-size: 30px;
+    font-size: 32px;
     color: #7081b9;
     font-weight: 700;
     margin: 5rem;
@@ -380,6 +383,13 @@ section.work .work-wrapper p.slider-second{
     font-size: 25px;
     font-weight: 200;
     color: #c77843;
+    margin: 5rem;
+    align-items: center;
+}
+section.work .work-wrapper p.slider-third{
+    font-size: 19px;
+    font-weight: 200;
+    color: #7081b9;
     margin: 5rem;
     align-items: center;
 }
