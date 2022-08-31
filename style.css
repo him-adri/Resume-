@@ -326,10 +326,11 @@ section.work .work-wrapper .portfolio .tabs ul li a{
 }
 section.work .work-wrapper .portfolio .tabs ul li a.active{
     border-color: blue;
-    color: blue;
+    color: rgb(203, 203, 223);
 }
 section.work .work-wrapper .portfolio .profolio-wrap{
     margin-top: 4rem;
+    margin-right: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -339,7 +340,36 @@ section.work .work-wrapper .portfolio .profolio-wrap a img{
     height: 100%;
     object-fit: cover;
     display: block;
+    padding: 1rem;
 }
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: default;
+  }
+  
+  .tooltip .tooltipText {
+    visibility: hidden;
+    padding: 0.25em 0.5em;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.25em;
+    white-space: nowrap;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 80%;
+    transition-property: visibility;
+    transition-delay: 0s;
+  }
+  
+  .tooltip:hover .tooltipText {
+    visibility: visible;
+    transition-delay: 0.3s;
+  }
 section.work .work-wrapper p.slider-first{
     font-size: 30px;
     color: #7081b9;
